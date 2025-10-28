@@ -1,0 +1,12 @@
+CREATE DATABASE CatFactsDB;
+GO
+
+USE CatFactsDB;
+GO
+
+CREATE TABLE CatFacts (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    fact_en NVARCHAR(255),
+    fact_es NVARCHAR(255)
+);
+GO
